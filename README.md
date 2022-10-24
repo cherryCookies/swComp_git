@@ -1,2 +1,0 @@
-# swComp_git
-test
