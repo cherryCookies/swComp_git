@@ -51,7 +51,7 @@ public class extract{
 	public static void map_print2(HashMap<Integer,List> mapsInput) {
 	       for(Integer key2: mapsInput.keySet()){
 	    	   System.out.print(key2+": ");
-	    	   System.out.print(mapsInput.get(key2).get(0).toString());
+	    	   System.out.print(mapsInput.get(key2).get(0).toString()+" ");
 	    	   System.out.println(mapsInput.get(key2).get(1).toString());
 	        }
 		}

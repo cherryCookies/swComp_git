@@ -59,11 +59,13 @@ public class main {
 		///extract hashmaps =new extract();
 		///HashMap<Integer, List> alignment_dic = extract.main();
 		extract.map_print();
+		
 		HashMap exonsAndGene = tracks.refGene(species, "'"+Chromosome);
 		System.out.println("???");
 		extract.map_print2(exonsAndGene);
 		System.out.println("????");
 		tracks.HashMapToFile(exonsAndGene,"refGene");
+		System.out.println("?????");
 		/*
 		if (TABLE_NAME=="refGene"){
 			HashMap exonsAndGene = tracks.refGene(species, Chromosome);
@@ -73,6 +75,7 @@ public class main {
 			tracks.HashMapToFile(exonsAndGene,"refGene");
 		}
 		*/
+		
 	}	
 }
 

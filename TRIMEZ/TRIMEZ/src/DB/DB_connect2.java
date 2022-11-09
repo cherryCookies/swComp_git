@@ -21,7 +21,7 @@ public class DB_connect2 {
     public static Connection DBconnect() {
 
     	final String driver = "org.mariadb.jdbc.Driver";
-		final String DB_IP = "genome-mysql.soe.ucsc.edu";
+		final String DB_IP = "genome-euro-mysql.soe.ucsc.edu";
 		final String DB_PORT = "3306";
 		final String DB_URL = "jdbc:mariadb://" + DB_IP + ":" + DB_PORT;
 
